@@ -8,5 +8,6 @@ public class Oppurtunity
 	public void createOpp()
 	{
 		System.out.println("Oppurtunity created successfully");
+		System.out.println("Oppurtunity added successfully");
 	}
 }
