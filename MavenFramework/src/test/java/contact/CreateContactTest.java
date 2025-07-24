@@ -1,8 +1,12 @@
 package contact;
 
+import org.testng.annotations.Test;
+
 public class CreateContactTest {
 
-	public static void main(String[] args) {
+	@Test
+	public void toCreateContact() 
+	{
 
 		System.out.println("Contact created successfully");
 	}

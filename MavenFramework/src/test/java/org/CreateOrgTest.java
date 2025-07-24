@@ -1,8 +1,11 @@
 package org;
 
+import org.testng.annotations.Test;
+
 public class CreateOrgTest {
 
-	public static void main(String[] args) {
+	@Test
+	public void toCreateOrg() {
 		System.out.println("Org created");
 
 	}

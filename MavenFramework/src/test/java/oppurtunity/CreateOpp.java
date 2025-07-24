@@ -1,10 +1,13 @@
 package oppurtunity;
 
+import org.testng.annotations.Test;
+
 public class CreateOpp {
 
-	public static void main(String[] args) {
+	@Test
+	public void toCreateOpp() 
+	{
 		System.out.println("Created oppurtunity");
-
 	}
 
 }

@@ -6,7 +6,13 @@
 	<artifactId>Qsp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-
+	<profiles>
+	<profile>
+	<id>ST</id>
+	
+	
+	</profile>
+	</profiles>
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -56,6 +62,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
+		
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
